@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "TNG BRICKLET 4"
+Date "2020-09-04"
+Rev "1.1"
+Comp "Tinkerforge GmbH"
+Comment1 "Licensed under CERN OHL v.1.1"
+Comment2 "Copyright (©) 2020, B.Nordmeyer <bastian@tinkerforge.com>"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -459,8 +459,8 @@ L tinkerforge:CPs C111
 U 1 1 5AEB740F
 P 5100 1150
 F 0 "C111" H 5125 1225 31  0000 L CNN
-F 1 "TBD" H 5125 1075 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 5100 1150 60  0001 C CNN
+F 1 "100µF" H 5125 1075 31  0000 L CNN
+F 2 "kicad-libraries:ELKO_63" H 5100 1150 60  0001 C CNN
 F 3 "" H 5100 1150 60  0000 C CNN
 	1    5100 1150
 	1    0    0    -1  
@@ -1860,4 +1860,6 @@ Connection ~ 8700 2350
 Wire Wire Line
 	7600 2350 7550 2350
 Connection ~ 7600 2350
+Text Notes 4150 5100 0    50   ~ 0
+Copyright Tinkerforge GmbH 2020.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.1 for applicable\nconditions
 $EndSCHEMATC

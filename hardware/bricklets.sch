@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title "HAT Brick"
-Date "2019-07-01"
-Rev "1.4"
+Title "TNG BRICKLET 4"
+Date "2020-09-04"
+Rev "1.1"
 Comp "Tinkerforge GmbH"
 Comment1 "Licensed under CERN OHL v.1.1"
-Comment2 "Copyright (©) 2019, B.Nordmeyer <bastian@tinkerforge.com>"
+Comment2 "Copyright (©) 2020, B.Nordmeyer <bastian@tinkerforge.com>"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -96,7 +96,7 @@ U 1 1 5B35B679
 P 4450 950
 F 0 "C201" V 4500 1000 31  0000 L CNN
 F 1 "100nF" V 4400 1000 31  0000 L CNN
-F 2 "kicad-libraries:C0603F" H 4450 950 60  0001 C CNN
+F 2 "kicad-libraries:C0402F" H 4450 950 60  0001 C CNN
 F 3 "" H 4450 950 60  0000 C CNN
 	1    4450 950 
 	0    1    1    0   
@@ -447,7 +447,7 @@ U 1 1 5B35B745
 P 4450 3950
 F 0 "C202" V 4500 4000 31  0000 L CNN
 F 1 "100nF" V 4400 4000 31  0000 L CNN
-F 2 "kicad-libraries:C0603F" H 4450 3950 60  0001 C CNN
+F 2 "kicad-libraries:C0402F" H 4450 3950 60  0001 C CNN
 F 3 "" H 4450 3950 60  0000 C CNN
 	1    4450 3950
 	0    1    1    0   
@@ -1315,8 +1315,8 @@ P 9100 5300
 AR Path="/5E7F224B" Ref="C?"  Part="1" 
 AR Path="/5AFDB425/5E7F224B" Ref="C209"  Part="1" 
 F 0 "C209" H 9125 5375 31  0000 L CNN
-F 1 "TBD" H 9125 5225 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 9100 5300 60  0001 C CNN
+F 1 "100µF" H 9125 5225 31  0000 L CNN
+F 2 "kicad-libraries:ELKO_63" H 9100 5300 60  0001 C CNN
 F 3 "" H 9100 5300 60  0000 C CNN
 	1    9100 5300
 	-1   0    0    -1  

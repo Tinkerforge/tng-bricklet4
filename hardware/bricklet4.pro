@@ -1,4 +1,4 @@
-update=Fr 06 Mär 2020 14:11:05 CET
+update=Fr 04 Sep 2020 13:55:24 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=tf.net
+LastNetListRead=bricklet4.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -74,7 +74,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
